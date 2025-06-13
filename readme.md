@@ -1,15 +1,16 @@
 Product Recommendation Analysis
+
 🔹 Project Overview
 This project aims to derive meaningful customer insights from product reviews by employing sentiment analysis and data visualization.
 Using Python (with NLTK, TextBlob, Plotly, and Tkinter), we:
 
-Gather reviews from Flipkart
+•	Gather reviews from Flipkart
 
-Perform extensive text processing
+•	Perform extensive text processing
 
-Identify customer sentiment (positive, neutral, or negative) for each product’s key features
+•	Identify customer sentiment (positive, neutral, or negative) for each product’s key features
 
-Provide visually rich pie charts and graphs for data storytelling
+•	Provide visually rich pie charts and graphs for data storytelling
 
 🔹 Visualizations
 Vertical Bar Chart — Each vertical bar represents a sum value of a specific metric across different product categories.
@@ -17,23 +18,23 @@ Vertical Bar Chart — Each vertical bar represents a sum value of a specific me
 🔹 What It Is Comparing:
 It is comparing the sum of various product-related metrics by category. Specifically, the chart visualizes:
 
-Sum of actual price
+•	Sum of actual price
 
-Sum of discount percentage
+•	Sum of discount percentage
 
-Sum of discounted price
+•	Sum of discounted price
 
-Sum of rating
+•	Sum of rating
 
-Sum of rating count
+•	Sum of rating count
 
 Each of these metrics is aggregated for different product categories such as:
 
-Computers
+•	Computers
 
-Car & Motorbike accessories
+•	Car & Motorbike accessories
 
-Electronics, etc.
+•	Electronics, etc.
 
 🔹 Purpose:
 To visually compare how different categories perform across key sales and review metrics — helping identify which categories have higher prices, more discounts, better ratings, or higher volume of reviews.
