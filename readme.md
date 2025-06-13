@@ -1,6 +1,7 @@
 Product Recommendation Analysis
 
 🔹 Project Overview
+
 This project aims to derive meaningful customer insights from product reviews by employing sentiment analysis and data visualization.
 Using Python (with NLTK, TextBlob, Plotly, and Tkinter), we:
 
@@ -12,11 +13,12 @@ Using Python (with NLTK, TextBlob, Plotly, and Tkinter), we:
 
 •	Provide visually rich pie charts and graphs for data storytelling
 
-🔹 Visualizations
+🔹 Visualizations:
+
 Vertical Bar Chart — Each vertical bar represents a sum value of a specific metric across different product categories.
 
 🔹 What It Is Comparing:
-It is comparing the sum of various product-related metrics by category. Specifically, the chart visualizes:
+   It is comparing the sum of various product-related metrics by category. Specifically, the chart visualizes:
 
 •	Sum of actual price
 
@@ -37,6 +39,7 @@ Each of these metrics is aggregated for different product categories such as:
 •	Electronics, etc.
 
 🔹 Purpose:
+
 To visually compare how different categories perform across key sales and review metrics — helping identify which categories have higher prices, more discounts, better ratings, or higher volume of reviews.
 
 Features:
@@ -49,7 +52,9 @@ PNG files are exported directly alongside the script for easy sharing.
 
 
 
-🔹 Data Story
+🔹 Data Story:
+
+
 This project guides you through understanding customer satisfaction and pain points with products:
 
 ✅ Identify frequently liked or disliked aspects.
