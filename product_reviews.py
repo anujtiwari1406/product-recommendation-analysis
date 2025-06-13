@@ -606,8 +606,10 @@ def processLanguage(exampleArray, ids,url,reviewTitle,certified):
             title='Review Analysis of '+title+ " from Flipkart"
         )
         fig = Figure(data=data, layout=layout)
-        plot(fig)
-    except Exception , e:
+        filename = "{}_review_report.png".format(title.replace(" ", "_"))
+        fig.write_image(filename)
+        print("Visualization successfully saved to",filename)
+        except Exception , e:
         print str(e)
         
 class ExampleApp(tk.Tk):
